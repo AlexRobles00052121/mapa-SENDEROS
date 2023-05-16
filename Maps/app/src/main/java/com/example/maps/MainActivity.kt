@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback,
         getCurrentLocation {
             moveCamera(it)
         }
-        addingMarker()
+        //addingMarker()
         map.setOnMyLocationButtonClickListener(this)
         map.setOnMyLocationClickListener(this)
         enableLocation()
